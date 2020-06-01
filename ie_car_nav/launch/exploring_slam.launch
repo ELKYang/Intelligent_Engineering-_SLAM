@@ -1,0 +1,12 @@
+<launch>
+
+    <include file="$(find ie_car_nav)/launch/gmapping.launch"/>
+
+    <!-- 运行move_base节点 -->
+    <include file="$(find ie_car_nav)/launch/move_base.launch" />
+
+
+    <!-- 运行rviz -->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find ie_car_nav)/rviz/nav.rviz"/>
+
+</launch>
