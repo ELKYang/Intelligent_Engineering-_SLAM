@@ -1,5 +1,6 @@
 # Intelligent_Engineering-_SLAM
-我又创造了一份垃圾qaq_SLAM
+NKU 智能工程 机器人SLAM
+(我又创造了一份垃圾qaq)
 # 操作文档
 
 ## 仿真平台
